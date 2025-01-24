@@ -1,0 +1,49 @@
+.body{
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
+  background-color: rgb(173, 193, 206);
+}
+.atas{
+    padding: 30px;
+    margin: auto;
+    order: 2;
+}
+.bawah1{
+    background-color: darkgrey;
+    padding: 30px;
+    flex: 1;
+    order: 1;
+    
+}
+.bawah2{
+    background-color: darkgray;
+    padding: 30px;
+    flex: 1;
+    order: 3;
+}
+
+
+/* contoh latihan layout */
+.a1{
+    background-color: blanchedalmond;
+    width: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 50px auto;
+
+}
+.a2{
+    padding: 30px;
+    flex: 1;
+}
+.a3{
+    padding: 30px;
+    flex: 1;
+}
+.a4{
+    padding: 30px;
+    flex: 1;
+}

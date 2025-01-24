@@ -1,0 +1,35 @@
+img{
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.g1 img{
+    filter: blur(4px);
+}
+.g2 img{
+    filter: brightness(150%);
+}
+.g3 img{
+    filter: contrast(350%);
+}
+.g4 img{
+    filter: drop-shadow(2px 2px 10px);
+}
+.g5 img{
+    filter: grayscale(150%);
+}
+.g6 img{
+    filter: hue-rotate(90deg);
+}
+.g7 img{
+    filter: invert(80%);
+}
+.g8 img{
+    filter: opacity(50%);
+}
+.g9 img{
+    filter: saturate(500px);
+}
+.g10 img{
+    filter: sepia(90%);
+}

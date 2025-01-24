@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+}
+.hero{
+    background-image: url(../image/hero.png);
+    height: 100vh;
+    background-repeat: no-repeat;/* agar gambar yang lebar nya tidak cukup tidak di ulang atau di perbanyak agar sesuai layar */
+    background-size: cover;/* agar gambar yang tidak cukup ukuran nya jadi sesuai dengan layar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+/* panel bar */
+.panel{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.infopanel{
+    margin-top: 50px;
+    text-align: center;
+}
+.textpanel{
+    font-size: 20px;
+    font-weight: bold;
+}
+.infopanel p{
+    font-size: 14px;
+}
+.infopanel .fab,.fas{
+    font-size: 40px;
+    color: salmon;
+    margin-bottom: 20px;
+}
+
+/* paket kelas */
+.paket{
+    background-color: azure;
+    margin-top: 50px;
+}
+.header h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.header hr{
+    width: 20%;
+    margin: auto;
+    border: 2px solid salmon;
+    margin-bottom: 20px;
+}
+.cardflex{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.items{
+    width: 400px;
+    background-color: azure;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px -10px ;
+    border-radius: 10px;
+}
+.items img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.items p{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.items button{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 16px;
+    color: teal;
+}
+.items button:hover{
+    background-color: salmon;
+    color: azure;
+}
+
+
+/* showcase */
+.showcase{
+    margin-top: 50px;
+}
+.scflex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.scitems{
+    width: 500px;
+}
+.scitems img{
+    width: 100%;
+}
+.scitems p{
+    margin-top: 20px;
+    line-height: 28px;
+}
+.scitems button{
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 16px;
+    color: teal;
+}
+.scitems button:hover{
+    background-color: salmon;
+    color: azure;
+}
+
+/* galeri */
+.galri{
+    margin-top: 50px;
+    background-color: azure;
+}
+.galeri h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.galeri hr{
+    width: 20%;
+    margin: auto;
+    border: 2px solid salmon;
+    margin-top: 5px;
+}
+.gaflex{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.gaitems{
+    width: 400px;
+}
+.gaitems img{
+    width: 100%;
+    margin-top: 30px;
+}
+.gaitems img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* testimoni */
+.testimoni{
+    margin-top: 50px;
+    width: 100%;
+}
+.tflex{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.titems{
+    width: 300px;
+    background-color: azure;
+    box-shadow: 0px 0px 20px -10px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.titems img{
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.titems q{
+    font-size: 14px;
+    margin: 50px
+
+    /* footer */
+}
+.footer{
+    margin-top: 50px;
+    background-color: teal;
+}
+.fflex{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.fitems{
+    width: 400px;
+}
+.fitems img{
+    width: 100px;
+    border-radius: 50%;
+}
+.fitems2{
+    width: 600px;
+    text-align: right;
+}
+.fitems2 p{
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+.fitems2 .fab{
+    color: white;
+    font-size: 20px;
+    margin-top: 20p;
+}

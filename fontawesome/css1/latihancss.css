@@ -1,0 +1,26 @@
+.container{
+    width: 200px;
+    height: 20px;
+    margin: 50px auto;
+    background-color: rgb(124, 150, 150);
+    border-radius: 10px;
+}
+.loader{
+    width: 10px;
+    height: 100%;
+    background-color: blue;
+    border-radius: 10px;
+
+    animation: loader 2s linear infinite reverse;
+}
+@keyframes loader{
+    0%{
+        width: 10px;
+    }
+    50%{
+        width: 100px;
+    }
+    100%{
+        width: 200px;
+    }
+}
